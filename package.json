@@ -1,0 +1,26 @@
+{
+	"name": "certain-cycle",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"regenerate:models": "ts-node --esm ./src/scripts/generate-models.ts"
+	},
+	"dependencies": {
+		"@kontent-ai/delivery-sdk": "^14.0.1",
+		"astro": "^2.0.9",
+		"dayjs": "^1.11.7"
+	},
+	"devDependencies": {
+		"@kontent-ai/model-generator": "^5.10.0",
+		"dotenv": "^16.0.3",
+		"prettier": "^2.8.4",
+		"prettier-plugin-astro": "^0.8.0",
+		"sass": "^1.58.0",
+		"ts-node": "^10.9.1"
+	}
+}
