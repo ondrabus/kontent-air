@@ -11,8 +11,9 @@
 		"regenerate:models": "ts-node --esm ./src/scripts/generate-models.ts"
 	},
 	"dependencies": {
+		"@astrojs/netlify": "^2.2.2",
 		"@kontent-ai/delivery-sdk": "^14.0.1",
-		"astro": "^2.0.9",
+		"astro": "^2.3.4",
 		"dayjs": "^1.11.7"
 	},
 	"devDependencies": {
